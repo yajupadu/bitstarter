@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var app = express.createServer(express.logger());
 
-var message = fs.readFileSync('/home/ubuntu/bitstarter/index.html');
+var message = fs.readFileSync('index.html');
 
 
 app.get('/', function(request, response) {
